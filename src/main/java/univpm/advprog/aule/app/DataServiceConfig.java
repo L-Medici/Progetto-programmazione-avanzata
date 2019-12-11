@@ -75,8 +75,8 @@ public class DataServiceConfig {
 		// hibernateProp.put("javax.persistence.schema-generation.database.action",
 		// "create"); // importante, altrimenti si aspetta il DB gia` "strutturato"
 		hibernateProp.put("javax.persistence.schema-generation.database.action", "none"); // importante, altrimenti si
-																							// aspetta il DB gia`
-																							// "strutturato"
+												  // aspetta il DB gia`
+											          // "strutturato"
 		return hibernateProp;
 	}
 
